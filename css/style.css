@@ -1,0 +1,134 @@
+﻿* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color          : #000000;
+}
+
+.top {
+    display        : flex;
+    justify-content: space-between;
+    gap            : 30px;
+    padding        : 100px 0;
+}
+
+.center {
+    padding-left : calc(50% - (1170px/2));
+    padding-right: calc(50% - (1170px/2));
+}
+
+.top__item {
+    padding: 40px 20px 25px 30px;
+}
+
+.top__item_center {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.top-item__img {
+    margin-bottom: 25px;
+}
+
+.top-item__tite {
+    margin-bottom: 17px;
+    font-size    : 24px;
+    line-height  : 28px;
+}
+
+.top-item__text {
+    margin-bottom: 25px;
+    font-size    : 15px;
+    line-height  : 150%;
+    color        : #666666;
+}
+
+.top-item__link {
+    font-size  : 11px;
+    line-height: 150%;
+}
+
+.main {
+    background    : #FAFAFA;
+    padding-top   : 92px;
+    padding-bottom: 100px;
+}
+
+.main__top {
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+    padding-bottom: 27px;
+}
+
+.main-top__tite {
+    font-size    : 45px;
+    line-height  : 53px;
+    margin-bottom: 19px;
+}
+
+.main-top__text {
+    font-size    : 16px;
+    line-height  : 150%;
+    color        : #666666;
+    text-align   : center;
+    padding-right: 250px;
+    padding-left : 250px;
+}
+
+.main__content {
+    padding        : 28px 0 100px;
+    display        : flex;
+    justify-content: space-between;
+    gap            : 30px;
+}
+
+.main-content__item {
+    padding-bottom: 50px;
+    background    : #FFFFFF;
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+}
+
+.main-content__item_center {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.main-content-item__img {
+    margin-bottom: 25px;
+}
+
+.main-content-item__title {
+    padding      : 0 30px;
+    margin-bottom: 22px;
+    text-align   : center;
+    font-size    : 24px;
+    line-height  : 28px;
+}
+
+.main-content-item__text {
+    padding      : 0 30px;
+    margin-bottom: 39px;
+    font-size    : 15px;
+    line-height  : 150%;
+    text-align   : center;
+    color        : #AAAAAA;
+}
+
+.main-content-item__link {
+    color        : #FFFFFF;
+    font-size    : 13px;
+    line-height  : 150%;
+    padding      : 15px 36px 15px 46px;
+    background   : no-repeat #F25822 url("../img/link-arrow_right.svg") center right 15%;
+    box-shadow   : 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+}
